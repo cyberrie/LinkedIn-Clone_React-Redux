@@ -7,6 +7,7 @@
   border: 1px solid lightgray;
   height: fit-content;
   padding-bottom: 10px;
+  justify-content: space-between;
 }
 
 .widgets_header {
@@ -21,3 +22,39 @@
   font-size: 15px;
   font-weight: 400;
 }
+
+.widgets_article {
+  display: flex;
+  padding: 10px;
+  cursor: pointer;
+
+}
+
+.widgets_article:hover {
+  background-color: whitesmoke;
+
+}
+
+.widgets_articleLeft {
+  color: gray;
+  margin-right: 5px;
+}
+
+.widgets_articleLeft > .MuiSvgIcon-root {
+  font-size: 15px;
+}
+
+.widgets_articleRight {
+  flex:1;
+}
+
+.widgets_articleRight > h4 {
+  font-size: 14px;
+}
+
+.widgets_articleRight > p {
+  font-size: 12px;
+  columns: gray;
+}
+
+
