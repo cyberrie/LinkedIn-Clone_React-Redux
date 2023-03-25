@@ -18,17 +18,21 @@ function Feed() {
 
   // realtime listener connection to database
   useEffect(() => {
-    db.collection("posts").onSnapshot((snapshot) => {
-      // everytime the post changes update the state
-      setPosts(
-        snapshot.docs.map((doc) => ({
-          id: doc.id,
-          data: doc.data(),
-        }))
-      );
-    });
+    // collection from firebase
+    db.collection("posts")
+      .orderBy("timestamp", "desc") // order posts by timestamp
+      .onSnapshot((snapshot) => {
+        // everytime the post changes update the state
+        setPosts(
+          snapshot.docs.map((doc) => ({
+            id: doc.id,
+            data: doc.data(),
+          }))
+        );
+      });
   }, []);
 
+  // send post
   const sendPost = (e) => {
     e.preventDefault();
 
