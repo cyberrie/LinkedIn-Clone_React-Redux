@@ -8,9 +8,9 @@ import BusinessCenterIcon from "@mui/icons-material/BusinessCenter";
 import SmsIcon from "@mui/icons-material/Sms";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import { SupervisorAccount } from "@mui/icons-material";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { auth } from "./firebase";
-import { logout, selectUser } from "./features/userSlice";
+import { logout } from "./features/userSlice";
 
 function Header() {
   // import user details
