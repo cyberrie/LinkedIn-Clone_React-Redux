@@ -10,14 +10,14 @@ import {
   SendOutlined,
 } from "@mui/icons-material";
 
-function Post({ name, decsription, message, photoUrl }) {
+function Post({ name, description, message, photoUrl }) {
   return (
     <div className="post">
       <div className="post_header">
         <Avatar />
         <div className="post_info">
           <h2>{name}</h2>
-          <p>{decsription}</p>
+          <p>{description}</p>
         </div>
       </div>
 
