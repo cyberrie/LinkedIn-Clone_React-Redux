@@ -2,6 +2,7 @@
   position: sticky;
   top: 80px;
   flex: 0.2;
+  min-width: max-content;
   background-color: white;
   border-radius: 10px;
   border: 1px solid lightgray;
@@ -15,7 +16,6 @@
   align-items: center;
   justify-content: space-between;
   padding: 10px;
-
 }
 
 .widgets_header > h2 {
@@ -27,12 +27,10 @@
   display: flex;
   padding: 10px;
   cursor: pointer;
-
 }
 
 .widgets_article:hover {
   background-color: whitesmoke;
-
 }
 
 .widgets_articleLeft {
@@ -45,7 +43,7 @@
 }
 
 .widgets_articleRight {
-  flex:1;
+  flex: 1;
 }
 
 .widgets_articleRight > h4 {
@@ -56,5 +54,3 @@
   font-size: 12px;
   columns: gray;
 }
-
-
