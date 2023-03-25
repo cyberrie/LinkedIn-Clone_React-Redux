@@ -1,6 +1,6 @@
 # Helena's LinkedIn Clone (Login and Home)
 
-This App is a clone of LinkedIn's login and home page, created using React and React Redux. It was created as a portfolio project to solidify React skills and showcase proficiency with Redux and Firebase.
+This App is a clone of LinkedIn's login and home page, created using React and React Redux. It was created as a portfolio project to solidify and showcase skills with React, Redux and Firebase.
 
 ## Project Overview
 
