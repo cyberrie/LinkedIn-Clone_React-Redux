@@ -1,10 +1,10 @@
 # Helena's LinkedIn Clone (Login and Home)
 
-This project is a clone of LinkedIn's login and home page, created using React and React Redux. It was created as a portfolio project to solidify React skills and showcase proficiency with Redux and Firebase.
+This App is a clone of LinkedIn's login and home page, created using React and React Redux. It was created as a portfolio project to solidify React skills and showcase proficiency with Redux and Firebase.
 
 ## Project Overview
 
-The project uses React Redux to manage state and Material UI for styling. It is deployed using Firebase, and user data is stored in Cloud Firestore. Users can register with their name, email, and password, and create new posts which will render onto the feed section. On refresh, the user will stay logged in as login details are stored in Redux.
+The App uses React Redux to manage state and Material UI for styling. It is deployed using Firebase, and user data is stored in Cloud Firestore. Users can register with their name, email, and password, and create new posts which will render onto the feed section. On refresh, the user will stay logged in as login details are stored in Redux.
 
 ## Usage
 
