@@ -2,7 +2,7 @@ import React from "react";
 import { Avatar } from "@mui/material";
 import "./Post.css";
 
-import InputOption from "./InputOption";
+import InputOption from "../InputOption/InputOption";
 import {
   ThumbUpAltOutlined,
   ChatOutlined,

@@ -1,18 +1,18 @@
 import React, { useEffect, useState } from "react";
 import "./Feed.css";
-import InputOption from "./InputOption";
+import InputOption from "../InputOption/InputOption";
 import CreateIcon from "@mui/icons-material/Create";
 import ImageIcon from "@mui/icons-material/Image";
 import SubscriptionsIcon from "@mui/icons-material/Subscriptions";
 import EventIcon from "@mui/icons-material/Event";
 import ArticleIcon from "@mui/icons-material/Article";
-import Post from "./Post";
-import { db } from "./firebase";
+import Post from "../Post/Post";
+import { db } from "../../firebase";
 import firebase from "firebase/compat/app";
 import "firebase/compat/auth";
 import "firebase/compat/firestore";
 import { useSelector } from "react-redux";
-import { selectUser } from "./features/userSlice";
+import { selectUser } from "../../features/userSlice";
 function Feed() {
   const user = useSelector(selectUser);
   const [input, setInput] = useState("");

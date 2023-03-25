@@ -1,16 +1,16 @@
 import React from "react";
 import "./Header.css";
 import SearchIcon from "@mui/icons-material/Search";
-import icon from "../src/linkedin.png";
-import HeaderOption from "./HeaderOption";
+import icon from "./linkedin.png";
+import HeaderOption from "../HeaderOption/HeaderOption";
 import HomeIcon from "@mui/icons-material/Home";
 import BusinessCenterIcon from "@mui/icons-material/BusinessCenter";
 import SmsIcon from "@mui/icons-material/Sms";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import { SupervisorAccount } from "@mui/icons-material";
 import { useDispatch } from "react-redux";
-import { auth } from "./firebase";
-import { logout } from "./features/userSlice";
+import { auth } from "../../firebase";
+import { logout } from "../../features/userSlice";
 
 function Header() {
   // import user details

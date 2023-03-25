@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
-import { auth } from "./firebase";
+import { auth } from "../../firebase";
 import "./Login.css";
-import { login } from "./features/userSlice";
+import { login } from "../../features/userSlice";
 
 function Login() {
   const [name, setName] = useState("");
