@@ -8,8 +8,17 @@ import BusinessCenterIcon from "@mui/icons-material/BusinessCenter";
 import SmsIcon from "@mui/icons-material/Sms";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import { SupervisorAccount } from "@mui/icons-material";
+import { useDispatch } from "react-redux";
+import { auth } from "./firebase";
+import { logout } from "./features/userSlice";
 
 function Header() {
+  const dispatch = useDispatch();
+  const logoutOfApp = () => {
+    dispatch(logout());
+    auth.signOut();
+  };
+
   return (
     <div className="header">
       <div className="header_left">
@@ -29,6 +38,7 @@ function Header() {
         <HeaderOption
           avatar="https://github.com/cyberrie/Bootstrap-Portfolio/blob/main/images/hel-headshot1.png?raw=true"
           title="Me"
+          onClick={logoutOfApp}
         />
       </div>
     </div>
