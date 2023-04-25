@@ -1,10 +1,10 @@
 # Helena's LinkedIn Clone (Login and Home)
 
-This App is a clone of LinkedIn's login and home page, created using React and React Redux. It was created as a portfolio project to solidify and showcase skills with React, Redux and Firebase.
+This App is a clone of LinkedIn's login and home page, created using React and React Redux. It was created as a portfolio project to solidify and showcase skills with React, Redux and Cloud Firestore.
 
 ## Project Overview
 
-The App uses React Redux to manage state and Material UI for styling. It is deployed using Firebase, and user data is stored in Cloud Firestore. Users can register with their name, email, and password, and create new posts which will render onto the feed section. On refresh, the user will stay logged in as login details are stored in Redux.
+The App uses React Redux to manage state and Material UI for styling. It is deployed on Netlify, and user data is stored in Cloud Firestore. Users can register with their name, email, and password, and create new posts which will render onto the feed section. On refresh, the user will stay logged in as login details are stored in Redux.
 
 ## Usage
 
@@ -32,7 +32,7 @@ REACT_APP_FIREBASE_PROJECT_ID=<your-project-id>
 
 - ### Usage
 
-- User can access the app via the following link: [Helena's LinkedIn Clone](https://linkedin-clone-cyberrie.web.app)
+- User can access the app via the following link: [Helena's LinkedIn Clone](https://linkedin-clone-cyberrie.netlify.app/)
 
 - Once loaded, user can follow below steps (please do not input any sensitive data):
 
@@ -56,7 +56,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - React Redux
 - Material UI
-- Deployed with Firebase
+- Cloud Firestore
+- Deployed on Netlify
 
 ## Useful Resources
 
