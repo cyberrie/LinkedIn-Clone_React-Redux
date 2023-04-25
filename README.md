@@ -6,7 +6,33 @@ This App is a clone of LinkedIn's login and home page, created using React and R
 
 The App uses React Redux to manage state and Material UI for styling. It is deployed on Netlify, and user data is stored in Cloud Firestore. Users can register with their name, email, and password, and create new posts which will render onto the feed section. On refresh, the user will stay logged in as login details are stored in Redux.
 
+## Screenshot & Live App
+
+![demo](./src/linkedin.png)
+
 ## Usage
+
+- User can access the app via the following link: [Helena's LinkedIn Clone](https://linkedin-clone-cyberrie.netlify.app/)
+
+- Once loaded, user can follow below steps (please do not input any sensitive data):
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+
+- Insert your Name
+- Profile Pic URL is optional
+- Insert Email
+- Insert Password
+- Click on 'Register Now'
+
+- User can create new post which will render onto Feed section
+
+- Click Avatar in the header to logout
+
+- On refresh, user will stay logged in as login details are stored in Redux
+
+- Once registered, user can Sign In with registered details
+
+## Development
 
 - ### Prerequisites
 
@@ -29,28 +55,6 @@ REACT_APP_FIREBASE_PROJECT_ID=<your-project-id>
 4. Run `npm start` to start the developent server
 
    - Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-- ### Usage
-
-- User can access the app via the following link: [Helena's LinkedIn Clone](https://linkedin-clone-cyberrie.netlify.app/)
-
-- Once loaded, user can follow below steps (please do not input any sensitive data):
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
-
-- Insert your Name
-- Profile Pic URL is optional
-- Insert Email
-- Insert Password
-- Click on 'Register Now'
-
-- User can create new post which will render onto Feed section
-
-- Click Avatar in the header to logout
-
-- On refresh, user will stay logged in as login details are stored in Redux
-
-- Once registered, user can Sign In with registered details
 
 ## Built With
 
